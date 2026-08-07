@@ -1,16 +1,17 @@
 <a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 <div align="center">
-  <h1>Desktop Assistant AI</h1>
-  <p>An AI to help users when they don't know what to do, with emphasis on code help.</p>
-  <p>
+  <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/graphs/contributors"><img src="https://img.shields.io/github/contributors/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/network/members"><img src="https://img.shields.io/github/forks/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/stargazers"><img src="https://img.shields.io/github/stars/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge" alt="Stargazers"></a>
+  <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/issues"><img src="https://img.shields.io/github/issues/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge" alt="Issues"></a>
+
+  <h3 align="center">Desktop Assistant AI</h3>
+  <p align="center">
+    An AI to help users when they don't know what to do, with emphasis on code help.
+    <br />
+    <br />
     <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/issues">Request Feature</a>
   </p>
 </div>
@@ -18,13 +19,19 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#built-with">Built With</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#security-notes">Security Notes</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
   </ol>
 </details>
 
@@ -42,6 +49,19 @@ Desktop-assistant-AI is an AI-powered desktop assistant designed to help users, 
 - Text-to-speech responses
 - Secure model loading with progress feedback
 - Modern PyQt5 GUI
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+* **GUI** — [![PyQt5][PyQt.badge]][PyQt-url]
+* **AI / speech**
+  * [![OpenAI][OpenAI.com]][OpenAI-url] — ChatGPT and Whisper
+  * [Coqui TTS](https://coqui.ai/)
+  * [Silero VAD](https://github.com/snakers4/silero-vad)
+* **Audio** — [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 
@@ -80,37 +100,49 @@ To set up a development environment, simply follow the installation instructions
 - `run.bat`, `compile.bat` — Windows scripts for running and compiling
 - `download_dependencies.sh` — Dependency installer for Linux
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Usage
 
 After installation, launch the assistant using `run.ps1`. The app will show a loading screen while the Whisper and Coqui TTS models load, then present the main window for interaction.
 
-## Built With
-
-- [PyQt5](https://riverbankcomputing.com/software/pyqt/intro) — GUI framework
-- [OpenAI](https://openai.com) — ChatGPT and Whisper integration
-- [Coqui TTS](https://coqui.ai/) — Text-to-speech
-- [PyAudio](https://people.csail.mit.edu/hubert/pyaudio/) — Audio I/O
-- [Silero VAD](https://github.com/snakers4/silero-vad) — Voice activity detection
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome.
 
+### Top contributors
+
+<a href="https://github.com/AMDphreak/Desktop-Assistant-AI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=AMDphreak/Desktop-Assistant-AI" alt="contributors" />
+</a>
+
+For per-person profile links, prefer [all-contributors](https://allcontributors.org/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## License
 
 MIT License (see LICENSE file if present)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
 Ryan Johnson — [@amdphreak](https://twitter.com/amdphreak)
 
-Project Link: https://github.com/AMDphreak/Desktop-Assistant-AI
+Project Link: [https://github.com/AMDphreak/Desktop-Assistant-AI](https://github.com/AMDphreak/Desktop-Assistant-AI)
 
-Site: https://ryanjohnson.dev
+Site: [https://ryanjohnson.dev](https://ryanjohnson.dev)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Security Notes
 
 See `The nature of the security vulnerability.md` for details on a Powershell script parser vulnerability related to speculative execution in batch scripts. This project is designed with security in mind, but always review scripts before running.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Screenshots
 
@@ -125,11 +157,7 @@ v0.1 - Command line with pyttsx3
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge
-[contributors-url]: https://github.com/AMDphreak/Desktop-Assistant-AI/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge
-[forks-url]: https://github.com/AMDphreak/Desktop-Assistant-AI/network/members
-[stars-shield]: https://img.shields.io/github/stars/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge
-[stars-url]: https://github.com/AMDphreak/Desktop-Assistant-AI/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AMDphreak/Desktop-Assistant-AI.svg?style=for-the-badge
-[issues-url]: https://github.com/AMDphreak/Desktop-Assistant-AI/issues
+[PyQt.badge]: https://img.shields.io/badge/PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white
+[PyQt-url]: https://riverbankcomputing.com/software/pyqt/intro
+[OpenAI.com]: https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white
+[OpenAI-url]: https://openai.com/
