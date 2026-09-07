@@ -1,0 +1,33 @@
+= Desktop Assistant AI
+:description: Experimental Windows assistant for coding and desktop guidance.
+:page-audience: Contributors evaluating the Desktop Assistant AI prototype
+:page-usage-context: Honest product-status overview and setup entry point
+:page-orig-author: Ryan Johnson
+:page-last-author: Cursor agent on behalf of Ryan Johnson
+:page-last-edited: 2026-09-07
+
+ifndef::page-context-active[]
+[.page-context.page-context-lead]
+****
+Audience:: {page-audience}
+****
+endif::[]
+
+Desktop Assistant AI is an experimental Windows assistant intended to help when a user is unsure what to do next, with particular emphasis on coding tasks. The current prototype combines a PyQt5 interface with screenshot context, OpenAI and Whisper integrations, speech recognition, and text-to-speech.
+
+The project README explicitly describes the application as not currently useful as a finished product. Treat this repository as an early prototype rather than a production assistant.
+
+== Run the prototype
+
+The setup targets Python 3.11. Run `setup.ps1` to create the local virtual environment and install dependencies, then start the application with `run.ps1`.
+
+The application loads speech models before presenting its main window. Review the repository's setup notes and PowerShell security note before running its scripts.
+
+ifndef::page-context-active[]
+[.page-context.page-context-footer]
+****
+Original author:: {page-orig-author}
+Latest contributor:: {page-last-author}
+Last updated:: {page-last-edited}
+****
+endif::[]

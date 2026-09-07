@@ -10,6 +10,9 @@
     An AI to help users when they don't know what to do, with emphasis on code help.
     <br />
     <br />
+    <a href="https://desktop-tooling.github.io/docs/desktop-assistant-ai/"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/issues">Report Bug</a>
     &middot;
     <a href="https://github.com/AMDphreak/Desktop-Assistant-AI/issues">Request Feature</a>
@@ -121,6 +124,10 @@ Contributions, issues, and feature requests are welcome.
 For per-person profile links, prefer [all-contributors](https://allcontributors.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for the project history.
 
 ## License
 
